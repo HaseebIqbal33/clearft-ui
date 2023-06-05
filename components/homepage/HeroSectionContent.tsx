@@ -24,7 +24,7 @@ const HeroSectionContent = () => {
                 <img src="./circle.png" alt="" />
                 <span>SkillPods</span>
               </div>
-              We're GOOD
+              We&apos;re GOOD
             </div>
           </div>
         </div>
