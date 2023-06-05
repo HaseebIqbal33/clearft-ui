@@ -18,8 +18,8 @@ const ContactForm = () => {
           <h2 className="text-3xl uppercase text-primary ">Drop us a line.</h2>
           <p className="text-xl text-black font-medium max-w-[380px]">
             Staying ahead of your competition is hard. We know this challenge
-            very well. Let's work together to find the solution that's right for
-            you.
+            very well. Let&apos;s work together to find the solution that's
+            right for you.
           </p>
           <PhoneBox color="#C1292A" phoneNumber="614. 470. 4134" />
           <EmailBox color="#C1292A" email="info@clearfitllc.com" />

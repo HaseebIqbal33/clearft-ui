@@ -10,8 +10,12 @@ const Header = () => {
             </span>
           </div>
           <div className="w-full flex justify-end gap-10 items-center">
-            {links.map((item) => {
-              return <a className="text-black text-base font-medium">{item}</a>;
+            {links.map((item, index) => {
+              return (
+                <a className="text-black text-base font-medium" key={index}>
+                  {item}
+                </a>
+              );
             })}
 
             <button

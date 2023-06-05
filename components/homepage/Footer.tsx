@@ -70,9 +70,11 @@ const Footer = () => {
               className="flex flex-wrap justify-around w-80 gap-0"
               style={{ lineHeight: "50px" }}
             >
-              {links.map((item) => {
+              {links.map((item, index) => {
                 return (
-                  <a className=" w-40 text-white cursor-pointer">{item}</a>
+                  <a className=" w-40 text-white cursor-pointer" key={index}>
+                    {item}
+                  </a>
                 );
               })}
             </div>
