@@ -30,8 +30,8 @@ const NavBar = () => {
           </div>
           {/* left part here */}
           <div className="flex justify-between gap-5">
-            {images.map((item) => {
-              return <img src={item} />;
+            {images.map((item, index) => {
+              return <img src={item} alt="Not found" key={index} />;
             })}
           </div>
         </div>
